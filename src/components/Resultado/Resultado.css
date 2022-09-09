@@ -1,0 +1,124 @@
+*{
+    text-align: center;
+    padding: 0px;
+}
+#titulo-segunda{
+    content:"Resultado";
+    width:250px;
+    height:60px;
+    background:#fcfcfc;
+    position: relative;
+    display: inline-block;
+    transform: rotate(-4deg);
+    box-shadow:  rgba(0, 0, 0, 0.637) 5px 5px 1px;
+    top:10%;
+    left:16%;
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+    margin-left: -100%;
+    margin-bottom: 50px;
+    padding: 5px;
+
+}
+.Resultado{
+    margin-left: 100px;
+    margin-top: 90px;
+    
+}
+#tableResultados{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border: solid 1px; 
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.637) 5px 5px 1px;
+}
+#tableResultados:after {
+    content:"";
+    width:150px;
+    height:40px;
+    background:#fff6dab6;
+    position:absolute;
+    display: inline-block;
+    transform: rotate(2deg);
+    box-shadow:  rgba(0, 0, 0, 0.637) 1px 0px 5px 0px;
+    top:25%;
+    left:17%;
+}
+
+#td-resultados, #td-apostadosDois,#td-estrelassorteados,#td-estrelasapostados{
+    text-align: left;
+    line-height: 50px;
+    text-decoration: underline 1px;
+    font-weight: bold;
+}
+hr{
+    color: black;
+    border-style: dotted;
+    border-width: 1px;
+    width: 165%;
+    
+}
+#TableDePremios{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border: solid 1px; 
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.637) 5px 5px 1px;
+    
+}
+#AreaDePremios{
+    display: inline-block;
+    position: absolute;
+    margin-top: -29%;
+}
+#TituloPremio{
+    content:"";
+    width:250px;
+    height:60px;
+    background:#fcfcfc;
+    position: relative;
+    display: inline-block;
+    transform: rotate(4deg);
+    box-shadow:  rgba(0, 0, 0, 0.637) 5px 5px 1px;
+    left:16%;
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+    margin-left: -40%;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+#AreaDePremios::after{
+    content:"";
+    width:150px;
+    height:40px;
+    background:#fff6dab6;
+    position:absolute;
+    display: inline-block;
+    transform: rotate(-6deg);
+    box-shadow:  rgba(0, 0, 0, 0.637) 1px 0px 5px 0px;
+    top:34%;
+    left:35%;
+}
+.Tabela{
+    border: solid 1px;
+    border-color: black;
+    padding: 3px;
+    font-weight: bold;
+    
+}
+#btnVoltar{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-family:monospace;
+    font-weight:600;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.76) 2px 2px 1px;
+    background-color: rgb(253, 189, 255);
+}
