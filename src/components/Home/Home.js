@@ -101,7 +101,7 @@ class Home extends React.Component {
             <button id='btnSubmit'>Submeter Aposta</button>
           </form>
           {submitted && (
-            <Navigate to="/resultado" state={this.state} />)
+            <Navigate to="/euromilhoesReact/resultado" state={this.state} />)
           }
         </div>
       </body>
