@@ -139,7 +139,7 @@ function Resultado(props) {
                     </tbody>
                 </table>
             </div>
-            <a id="btnVoltar" href="/">Voltar e tentar novamente</a>
+            <a id="btnVoltar" href="/euromilhoesReact">Voltar e tentar novamente</a>
         </div>
     )
 };
